@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Accordian from './Components/Accordian/index';
+import ImageSlider from './Components/Image-Slider';
+import LoadMore from './Components/Loadmore';
+import Tree from './Components/Tree-view';
+import Qr from './Components/Qr-codeGenerator';
+import menus from './Components/Tree-view/data';
+import RandomColor from './Components/random-color';
+import Star from './Components/star-hover';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/* <Accordian /> */}
+   {/* <RandomColor /> */}
+   {/* <Star /> */}
+   {/* <ImageSlider url = {"https://picsum.photos/v2/list"} page = {'1'} limit = {"10"} /> */}
+   {/* <LoadMore /> */}
+   {/* <Tree menus={menus} /> */}
+   <Qr />
     </div>
   );
 }

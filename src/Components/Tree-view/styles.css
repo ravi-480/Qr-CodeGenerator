@@ -1,0 +1,29 @@
+/* Style for the tree-view class */
+.tree-view {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the top-level list */
+  .tree-view > ul {
+    list-style-type: disc; /* Set list style type for top-level list */
+  }
+  
+  /* Style for the nested lists */
+  .tree-view ul {
+    list-style-type: disc; /* Set list style type for nested lists */
+    margin-left: 20px; /* Adjust the indentation as needed */
+  }
+  
+  /* Style for the menu item label */
+  .tree-view p {
+    margin: 0;
+    padding: 5px;
+    cursor: pointer; /* Add cursor pointer for better UX */
+  }
+  
+  /* Style for the menu item label when hovered */
+  .tree-view p:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
