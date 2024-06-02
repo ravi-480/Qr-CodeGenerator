@@ -3,11 +3,10 @@
 ## Overview
 This is a simple QR Code Generator web application built using React.js. It allows users to generate QR codes for different values entered in the input field.
 
-![QR Code Generator Screenshot](screenshot.png)
+![Screenshot (11)](https://github.com/ravi-480/Qr-CodeGenerator/assets/133526172/8227381f-9feb-45ce-a305-5853a24c5f81)
 
 ## Features
-- Generate QR codes for various valu![Screenshot (11)](https://github.com/ravi-480/Qr-CodeGenerator/assets/133526172/8227381f-9feb-45ce-a305-5853a24c5f81)
-es such as URLs, text, or any other data.
+- Generate QR codes for various values such as URLs, text, or any other data.
 - Simple and intuitive user interface.
 - Responsive design, suitable for desktop and mobile devices.
 
